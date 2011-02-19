@@ -1,0 +1,13 @@
+CryptJournal
+
+This is a really simple encrypted notepad to dump those thoughts you don't want anybody else to hear :).
+The only details to take into account is the key generation, which follows the standard operation PBKDF2, also it encrypts the entries with AES CBC 256 and saves them in plain text (QSettings form), and depends on PySide.
+It's not really fast for several reasons, but fast enough for me at least.
+
+LICENSE
+
+This software is under GPLv2 license, except PBKDF2.py wich expresses its own license in the file.
+
+COMMENTS AND CRITICS
+
+I always want to hear feedback about my projects, if you have any, don't hesitate to contact me: chiiph .at. gmail .dot. com
